@@ -15,6 +15,16 @@
                 padding: 1em;
                 margin: 1em;
             }
+            .header{
+                display: grid;
+                .item{grid-area:item1;background-color: lightblue;text-align: center;}
+                .item{grid-area: item2;background-color: lightgreen;text-align: center;}
+                grid-template-colums: 1fr 1fr;
+                gap:10px;
+                grid-template-areas:
+                    "item1 item2"
+
+            }
       
         </style>
         <link rel ="stylesheet" href = "styles.css">
